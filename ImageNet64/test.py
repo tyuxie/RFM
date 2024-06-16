@@ -97,6 +97,8 @@ def sample_and_test(rank, gpu, args):
     if rank == 0 and not os.path.exists(save_dir):
         os.makedirs(save_dir)
     if args.reflect:
+        import sys
+        sys.path.append('../')
         from torchdiffeqReflect import odeint
     else:
         from torchdiffeq import odeint

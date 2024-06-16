@@ -101,6 +101,8 @@ def sample_and_test(rank, gpu, args):
         os.makedirs(save_dir)
     tg_gaussian = TruncatedNormal(torch.Tensor([0]), torch.Tensor([1]), -1, 1)
     if args.reflect:
+        import sys
+        sys.path.append('../')
         from torchdiffeqReflect import odeint
     else:
         from torchdiffeq import odeint

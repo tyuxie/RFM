@@ -3,8 +3,8 @@
 
 <div align="center">
   <a href="https://github.com/PixArt-alpha/PixArt-sigma/](https://github.com/tyuxie/RFM)"><img src="https://img.shields.io/static/v1?label=RFM Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
-  <a href="https://arxiv.org/abs/2405.16577"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a> &ensp;
-  <a href="https://openreview.net/forum?id=Sf5KYznS2G"><img src="https://img.shields.io/static/v1?label=Paper&message=Openreview&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://arxiv.org/abs/2405.16577"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://openreview.net/forum?id=Sf5KYznS2G"><img src="https://img.shields.io/static/v1?label=Paper&message=OpenReview&color=red&logo=arxiv"></a> &ensp;
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a> &ensp;
 </div>
 
@@ -69,7 +69,7 @@ We provide all the pretrained weights at [Google Drive repository](https://drive
 
 [2] Lipman, Y., Chen, R. T., Ben-Hamu, H., Nickel, M., & Le, M. (2022). Flow matching for generative modeling. arXiv preprint arXiv:2210.02747.
 
-[3] Chen, Ricky T. Q. torchdiffeq. 2018. https://github.com/rtqichen/torchdiffeq
+[3] Chen, R. T. torchdiffeq. (2018). https://github.com/rtqichen/torchdiffeq
 
 ---
 
