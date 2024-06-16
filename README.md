@@ -1,8 +1,21 @@
-# Reflected Flow Matching
+### <div align="center"> Reflected Flow Matching <div> 
+### <div align="center"> ICML 2024 Poster <div> 
 
-## Authors
+<div align="center">
+  <a href="https://github.com/PixArt-alpha/PixArt-sigma/](https://github.com/tyuxie/RFM)"><img src="https://img.shields.io/static/v1?label=RFM Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
+  <a href="https://arxiv.org/abs/2405.16577"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://openreview.net/forum?id=Sf5KYznS2G"><img src="https://img.shields.io/static/v1?label=Paper&message=Openreview&color=red&logo=arxiv"></a> &ensp;
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a> &ensp;
+</div>
 
-[Add authors here]
+<div align="center">
+Tianyu Xie*, Yu Zhu*, Longlin Yu*, Tong Yang, Ziheng Cheng, Shiyue Zhang, Xiangyu Zhang, Cheng Zhang
+</div>
+
+---
+
+This repo contains PyTorch model definitions, pre-trained weights and inference/sampling code for Reflected Flow Matching.
+
 
 ## Installation and Running
 
@@ -48,9 +61,26 @@ python precompute_FID_statistics.py
 
 For CIFAR10, we employ all the experiments on 8 2080Ti GPUs. 
 
-We provide all the pretrained weights[?].
+We provide all the pretrained weights at [Google Drive repository](https://drive.google.com/drive/folders/12m2FJiA2Jg9mej3os_wSyh6QLm2JL02Q?usp=sharing).
+
 
 ## References
 [1] Tong, A., Malkin, N., Huguet, G., Zhang, Y., Rector-Brooks, J., Fatras, K., ... & Bengio, Y. (2023). Improving and generalizing flow-based generative models with minibatch optimal transport. arXiv preprint arXiv:2302.00482.
 
-[2]Lipman, Y., Chen, R. T., Ben-Hamu, H., Nickel, M., & Le, M. (2022). Flow matching for generative modeling. arXiv preprint arXiv:2210.02747.
+[2] Lipman, Y., Chen, R. T., Ben-Hamu, H., Nickel, M., & Le, M. (2022). Flow matching for generative modeling. arXiv preprint arXiv:2210.02747.
+
+[3] Chen, Ricky T. Q. torchdiffeq. 2018. https://github.com/rtqichen/torchdiffeq
+
+---
+
+If you find this repository useful in your research, please consider citing:
+
+```
+@inproceedings{
+xie2024rfm,
+title={Reflected Flow Matching},
+author={Tianyu Xie and Yu Zhu and Longlin Yu and Tong Yang and Ziheng Cheng and Shiyue Zhang and Xiangyu Zhang and Cheng Zhang},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+}
+```
