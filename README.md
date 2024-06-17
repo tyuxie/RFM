@@ -4,7 +4,7 @@
 <div align="center">
   <a href="https://github.com/PixArt-alpha/PixArt-sigma/](https://github.com/tyuxie/RFM)"><img src="https://img.shields.io/static/v1?label=RFM Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
   <a href="https://arxiv.org/abs/2405.16577"><img src="https://img.shields.io/static/v1?label=Paper&message=arXiv&color=red&logo=arxiv"></a> &ensp;
-  <a href="https://openreview.net/forum?id=Sf5KYznS2G"><img src="https://img.shields.io/static/v1?label=Paper&message=OpenReview&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://openreview.net/forum?id=Sf5KYznS2G"><img src="https://img.shields.io/static/v1?label=Paper&message=OpenReview&color=red&logo=openreview"></a> &ensp;
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a> &ensp;
 </div>
 
